@@ -2,7 +2,7 @@
 title: "Chapter_2"
 author: "Usman Khaliq"
 date: "8/29/2021"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
