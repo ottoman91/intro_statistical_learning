@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Conceptual
 
-1. For each of parts (a) through (d), indicate whether we would generally
+Q.  For each of parts (a) through (d), indicate whether we would generally
 expect the performance of a flexible statistical learning method to be
 better or worse than an inflexible method. Justify your answer.
 (a) The sample size n is extremely large, and the number of predic-
@@ -42,7 +42,7 @@ The inflexible model would be better, since due to the extremely high variance i
 the increase in the variance due to the flexible model would make the model performance worse off. 
 
 
-2. Explain whether each scenario is a classification or regression prob-
+Q.  Explain whether each scenario is a classification or regression prob-
 lem, and indicate whether we are most interested in inference or pre-
 diction. Finally, provide n and p. 
 
@@ -77,7 +77,7 @@ and the % change in the German market
 * Prediction 
 * n = 52. p = 3
 
-3. We now revisit the bias-variance decomposition.
+Q. We now revisit the bias-variance decomposition.
 (a) Provide a sketch of typical (squared) bias, variance, training er-
 ror, test error, and Bayes (or irreducible) error curves, on a sin-
 gle plot, as we go from less flexible statistical learning methods
@@ -97,7 +97,7 @@ part (a)
 * For the test set, the MSE initially goes down as the decrease in bias due to more flexibility is greater than the increase in the variance, but beyond a certain limit, the variance starts increasing at a greater rate as compared to the reduction in the bias, which leads to the MSE going up again. 
 * The Bayes error is a vertical line that intersects the training MSE at its lowest point. 
 
-What are the advantages and disadvantages of a very flexible (versus
+Q. What are the advantages and disadvantages of a very flexible (versus
 a less flexible) approach for regression or classification? Under what
 circumstances might a more flexible approach be preferred to a less
 flexible approach? When might a less flexible approach be preferred?
@@ -121,7 +121,7 @@ A less flexible approach can be preferred if our focus is on interpretation inst
 of prediction. 
 
 
-Describe the differences between a parametric and a non-parametric
+Q. Describe the differences between a parametric and a non-parametric
 statistical learning approach. What are the advantages of a para-
 metric approach to regression or classification (as opposed to a non-
 parametric approach)? What are its disadvantages?

@@ -75,17 +75,13 @@ flexible model would make the model performance worse off.
 -   Prediction
 -   n = 52. p = 3
 
-1.  We now revisit the bias-variance decomposition.
-
-<!-- -->
-
-1.  Provide a sketch of typical (squared) bias, variance, training er-
-    ror, test error, and Bayes (or irreducible) error curves, on a sin-
-    gle plot, as we go from less flexible statistical learning methods
-    towards more flexible approaches. The x-axis should represent the
-    amount of flexibility in the method, and the y-axis should represent
-    the values for each curve. There should be five curves. Make sure to
-    label each one.
+Q. We now revisit the bias-variance decomposition. (a) Provide a sketch
+of typical (squared) bias, variance, training er- ror, test error, and
+Bayes (or irreducible) error curves, on a sin- gle plot, as we go from
+less flexible statistical learning methods towards more flexible
+approaches. The x-axis should represent the amount of flexibility in the
+method, and the y-axis should represent the values for each curve. There
+should be five curves. Make sure to label each one.
 
 ![Bias Variance Tradeoff](bias_variance.png)
 
@@ -108,8 +104,8 @@ flexible model would make the model performance worse off.
 -   The Bayes error is a vertical line that intersects the training MSE
     at its lowest point.
 
-What are the advantages and disadvantages of a very flexible (versus a
-less flexible) approach for regression or classification? Under what
+Q. What are the advantages and disadvantages of a very flexible (versus
+a less flexible) approach for regression or classification? Under what
 circumstances might a more flexible approach be preferred to a less
 flexible approach? When might a less flexible approach be preferred?
 
@@ -129,7 +125,7 @@ of predicters.
 A less flexible approach can be preferred if our focus is on
 interpretation instead of prediction.
 
-Describe the differences between a parametric and a non-parametric
+Q. Describe the differences between a parametric and a non-parametric
 statistical learning approach. What are the advantages of a para- metric
 approach to regression or classification (as opposed to a non-
 parametric approach)? What are its disadvantages?
